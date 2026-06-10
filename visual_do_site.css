@@ -1,0 +1,317 @@
+.pagina_inicial + h2{
+    background-color: #FCFDFD;
+    background-image: radial-gradient(rgba(77, 43, 140, 0.05) 2px, transparent 2px);
+    background-size: 30px 30px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.15);
+    letter-spacing: 1px;
+    font-family: 'Cascadia Code';
+    text-align: center;
+}
+html{
+    background-image: radial-gradient(rgba(77, 43, 140, 0.05) 2px, transparent 2px);
+    background-size: 30px 30px;
+}
+section, h2{
+    max-width: 850px;
+    line-height: 1.6;
+    margin: 0 auto;
+    font-family: Arial;
+}
+video{
+    max-width: 850px;
+    height: 500px;
+}
+h1{
+    font-family: 'Cascadia Code';
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+}
+h2{
+    font-family: 'Cascadia Code';
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.15);
+    letter-spacing: 1px;
+}
+.texto_nome{
+    left: 50%;
+    transform: translateX(50%);
+}
+.texto_inicial{
+    text-align: center;
+}
+.texto_professor{
+    font-family: 'Cascadia Code';
+    font-weight: bold;
+}
+button{
+    margin: 0 auto;
+    display: flex;
+}
+hr{
+    opacity: 50%;
+}
+main{
+    background-color: #FCFDFD;
+    background-image: radial-gradient(rgba(77, 43, 140, 0.05) 2px, transparent 2px);
+    background-size: 30px 30px;
+}
+nav{
+    float: left;
+    position: sticky;
+    height: 100vh;
+    width: 270px;
+    top: 15px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.15);
+}
+a{
+    color: #AAAAAA;
+    transition: 0.2s;
+}
+a:hover:not(.button){
+    color: white;
+    padding-left: 10px;
+}
+cite{
+    font-weight: bold;
+}
+/* PAÍSES */
+.iraque{
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        #CE1126 0% 23%,
+        white 23% 60%,
+        black 60% 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+}
+.libano{
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        #D31624 0% 27%,
+        white 27% 62%,
+        #D31624 62% 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+}
+.oma{
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        white 0% 34%,
+        #D71A28 34% 74%,
+        #007A3D 74% 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+}
+.egito{
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        #C8102E 0% 50%,
+        white 50% 62%,
+        black 62% 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+}
+.afeganistao{
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        black 0% 39%,
+        #D32011 39% 64%,
+        #007A36 64% 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+.grecia{
+    font-weight: bolder;
+    color: #0D5EAF;
+}
+.roma{
+    font-weight: bolder;
+    color: #E2001A;
+}
+/* TOOLTIPS */
+.tooltip{
+    position: relative;
+}
+.tooltip .tooltip-text{
+    visibility: hidden;
+    position: absolute;
+    top: 150%;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0;
+    transition: 0.5s;
+    width: 250px;
+    height: 130px;
+    z-index: 999;
+}
+.tooltip:hover::after{
+    content: "ℹ️";
+    background: none;
+    color: blue;
+    -webkit-text-fill-color: blue;
+    
+}
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+    opacity: 1;
+}
+.unicamp_logo{
+    height: 140px;
+}
+.cotil_logo{
+    height: 140px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: -150px;
+}
+.fonte_imagem{
+    height: 60px;
+}
+.imagem_david{
+    background-image: url(https://th.bing.com/th/id/R.8971771b36e3aec4ac734e1b381e80be?rik=FxhzwMtbK632NA&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_wengrow{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/06/David_Wengrow_no_Fronteiras_do_Pensamento_2023_em_S%C3%A3o_Paulo_%2853235359260%29_%28cropped%29.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;   
+}
+.imagem_samuel{
+    background-image: url(https://apaixonadosporhistoria.com.br/img/livroautor/livroautor_20181025080803_1973299644.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;   
+}
+.imagem_edward{
+    background-image: url(https://i0.wp.com/literariness.org/wp-content/uploads/2016/04/edward_said_1999_dpa_akg_1.jpg?resize=700%2C394&ssl=1);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_mario{
+    background-image: url(https://i.ytimg.com/vi/35F8kCj7F24/hqdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_cuneiforme{
+    background-image: url(https://1.bp.blogspot.com/-EbQ-yGLCifA/XpzVVdqYnRI/AAAAAAAA1lo/zsN6PGRvLL83OoLjs6enrgGD7PSt1U6ggCLcBGAsYHQ/s1600/%252Bescrita-cuneiforme-1200x675.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_grecia{
+    background-image: url(https://www.mappr.co/wp-content/uploads/2021/10/greece-map.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_roma{
+    background-image: url(https://th.bing.com/th/id/R.ee5165584b5658d4d4d56652bb73f854?rik=f8dAVwPK0mNc8w&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_zigurate{
+    background-image: url(https://media.vaticannews.va/media/content/dam-archive/vaticannews/multimedia/2021/03/01/S2.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_enki{
+    background-image: url(https://i.fbcd.co/products/resized/resized-750-500/c-1000-designbundle-sumerian-god-sculpture-1-09-01-4e6847148ba04916cf12df6a544f05a48108a8d31d758c70409562640d2d4011.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+    right: 25px;
+}
+.imagem_inanna{
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.fbDqVonxDpo7o0ibqfTrgAHaEb?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_anu{
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.aqY6UMFRXN2qMlsAxa-mvQHaEw?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+    left: 485px;
+}
+.imagem_templo{
+    background-image: url(https://static.spektrum.de/fm/912/f640x360/Uruk-Tempel_AKG4163991_AKG-BalageBalogh-archaeologyillu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 240px;
+    height: 135px;
+}
+.imagem_vaso{
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.otnYMlslYcQa9obBYz5OIQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 135px !important;
+}
+.imagem_eufrates{
+    background-image: url(https://es-static.z-dn.net/files/d39/49939b78c182d91cd26fa7450999d0bc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 135px !important;
+}
+.texto_secundario{
+    right: 25px;
+    width: 115px !important;
+    border-radius: 10px 0px 0px 10px;
+}
