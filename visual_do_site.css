@@ -11,7 +11,7 @@ html{
     background-image: radial-gradient(rgba(77, 43, 140, 0.05) 2px, transparent 2px);
     background-size: 30px 30px;
 }
-section, h2{
+section:not(.iframe_form), h2{
     max-width: 850px;
     line-height: 1.6;
     margin: 0 auto;
